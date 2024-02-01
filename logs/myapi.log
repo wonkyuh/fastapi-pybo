@@ -1,0 +1,65 @@
+[2024-01-30 17:22:09,638.638] DEBUG [139756181112448] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-30 17:22:09,639.639] DEBUG [139756181112448] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-30 17:22:09,639.639] DEBUG [139756181112448] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-30 17:22:09,642.642] DEBUG [139756181112448] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-30 17:22:09,683.683] DEBUG [139756181112448] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-30 17:22:09,683.683] DEBUG [139756181112448] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-30 17:22:09,683.683] DEBUG [139756181112448] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-30 17:22:09,686.686] DEBUG [139756181112448] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-30 17:22:41,747.747] DEBUG [139757997446784] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-30 17:22:41,747.747] DEBUG [139757997446784] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-30 17:22:41,747.747] DEBUG [139757997446784] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-30 17:22:41,747.747] DEBUG [139757997446784] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-30 17:22:41,747.747] DEBUG [139757997446784] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-30 17:22:41,747.747] DEBUG [139757997446784] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-30 17:22:41,750.750] DEBUG [139757997446784] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-30 17:22:41,750.750] DEBUG [139757997446784] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-30 17:25:40,587.587] DEBUG [140529728902784] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-30 17:25:40,587.587] DEBUG [140529728902784] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-30 17:25:40,587.587] DEBUG [140529728902784] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-30 17:25:40,590.590] DEBUG [140529728902784] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-30 17:25:40,664.664] DEBUG [140529728902784] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-30 17:25:40,664.664] DEBUG [140529728902784] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-30 17:25:40,664.664] DEBUG [140529728902784] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-30 17:25:40,667.667] DEBUG [140529728902784] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-30 17:25:54,338.338] WARNING [140529305118464] - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/root/venvs/prod_myapi/lib64/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+[2024-01-30 17:25:54,338.338] DEBUG [140529305118464] - detected 'bcrypt' backend, version '<unknown>'
+[2024-01-30 17:25:54,339.339] DEBUG [140529305118464] - 'bcrypt' backend lacks $2$ support, enabling workaround
+[2024-01-30 17:25:57,299.299] DEBUG [140529728902784] - Calling on_field_start with no data
+[2024-01-30 17:25:57,299.299] DEBUG [140529728902784] - Calling on_field_name with data[0:8]
+[2024-01-30 17:25:57,299.299] DEBUG [140529728902784] - Calling on_field_data with data[9:17]
+[2024-01-30 17:25:57,299.299] DEBUG [140529728902784] - Calling on_field_end with no data
+[2024-01-30 17:25:57,299.299] DEBUG [140529728902784] - Calling on_field_start with no data
+[2024-01-30 17:25:57,299.299] DEBUG [140529728902784] - Calling on_field_name with data[18:26]
+[2024-01-30 17:25:57,300.300] DEBUG [140529728902784] - Calling on_field_data with data[27:31]
+[2024-01-30 17:25:57,300.300] DEBUG [140529728902784] - Calling on_field_end with no data
+[2024-01-30 17:25:57,300.300] DEBUG [140529728902784] - Calling on_end with no data
+[2024-01-30 17:25:57,306.306] WARNING [140529305118464] - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/root/venvs/prod_myapi/lib64/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+[2024-01-30 17:25:57,307.307] DEBUG [140529305118464] - detected 'bcrypt' backend, version '<unknown>'
+[2024-01-30 17:25:57,307.307] DEBUG [140529305118464] - 'bcrypt' backend lacks $2$ support, enabling workaround
+[2024-01-31 10:41:11,923.923] DEBUG [140360150046336] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-31 10:41:11,924.924] DEBUG [140360150046336] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-31 10:41:11,924.924] DEBUG [140360150046336] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-31 10:41:11,927.927] DEBUG [140360150046336] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-01-31 10:41:11,927.927] DEBUG [140360150046336] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-01-31 10:41:11,927.927] DEBUG [140360150046336] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-01-31 10:41:11,931.931] DEBUG [140360150046336] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-01-31 10:41:11,931.931] DEBUG [140360150046336] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-02-01 09:21:59,114.114] DEBUG [140691380131456] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-02-01 09:21:59,115.115] DEBUG [140691380131456] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-02-01 09:21:59,115.115] DEBUG [140691380131456] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-02-01 09:21:59,118.118] DEBUG [140691380131456] - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+[2024-02-01 09:21:59,118.118] DEBUG [140691380131456] - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+[2024-02-01 09:21:59,118.118] DEBUG [140691380131456] - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+[2024-02-01 09:21:59,121.121] DEBUG [140691380131456] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+[2024-02-01 09:21:59,121.121] DEBUG [140691380131456] - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
