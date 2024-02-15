@@ -6,7 +6,7 @@
 <!-- 네비게이션바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom">
     <div class="container-fluid">
-        <a use:link class="navbar-brand" href="/" on:click="{()=>{$page = 0 }}" style="color: white"><strong>Blackbean</strong></a>
+        <a use:link class="navbar-brand" href="/" on:click="{()=>{$page = 0 }}" style="color: white"><strong>TEST</strong></a>
         <button
             class="navbar-toggler"
             type="button"
