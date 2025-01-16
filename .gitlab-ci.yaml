@@ -1,0 +1,27 @@
+stages:
+  - build
+  - push
+
+# 환경 변수 설정
+variables:
+  REGISTRY: "211.188.55.64:8080"  # Harbor 주소 (자신의 환경에 맞게 수정)
+  PROJECT_NAME: "fastapi-pybo"     # Harbor 프로젝트 이름
+  IMAGE_NAME: "fastapi-pybo-image" # Docker 이미지 이름
+  TAG: "latest"                    # Docker 이미지 태그 (버전, latest 등)
+
+# Docker 이미지 빌드 단계
+build_image:
+  stage: build
+  script:
+    - docker build -t $REGISTRY/$PROJECT_NAME/$IMAGE_NAME:$TAG .
+  only:
+    - main  # main 브랜치에서만 실행 (필요시 수정)
+
+# Harbor에 이미지 푸시 단계
+push_image:
+  stage: push
+  script:
+    - echo "$CI_JOB_TOKEN" | docker login $REGISTRY -u "$CI_REGISTRY_USER" --password-stdin
+    - docker push $REGISTRY/$PROJECT_NAME/$IMAGE_NAME:$TAG
+  only:
+    - main  # main 브랜치에서만 실행 (필요시 수정)
