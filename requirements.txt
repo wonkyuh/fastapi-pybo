@@ -1,0 +1,10 @@
+wheel
+fastapi
+alembic
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+passlib[bcrypt]
+python-multipart
+python-jose[cryptography]
+psycopg2-binary
